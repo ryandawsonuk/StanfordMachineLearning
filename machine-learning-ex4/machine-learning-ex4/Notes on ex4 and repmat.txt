@@ -1,0 +1,17 @@
+repmat([1:num_labels], m, 1)
+creates row vector of size num_labels and then repeats across m rows
+
+repmat(y, 1, num_labels)
+takes a vector of size m and repeats it across num_labels columns
+
+performing == on this effectively replicates the value of y num_labels times for each training example but only gives a 1 when it is a match and a zero otherwise so we get an array of m rows and num_labels columns (andonly one column will have a value per row).
+
+http://uk.mathworks.com/help/matlab/ref/repmat.html
+http://uk.mathworks.com/help/matlab/ref/eq.html
+
+Theta1(:, 2:end) omits the first column of Theta1. Why are the biases in the first column rather than the first row? (http://uk.mathworks.com/help/matlab/ref/reshape.html - it has hidden_layer_size rows and (input_layer_size + 1) columns so first column has to be bias.)
+
+http://uk.mathworks.com/help/matlab/ref/end.html
+
+Theta1ZeroedBias = [ zeros(size(Theta1, 1), 1) Theta1ExcludingBias ];
+Sets the first column to zero.
