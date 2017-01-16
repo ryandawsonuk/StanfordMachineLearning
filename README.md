@@ -18,4 +18,4 @@ This is for the completed assignments for the Coursera Course 'Machine Learning'
 
 #Course Projects
 
-The course is assessed through quizes and graded projects. The projects are recorded here (quizes not recorded). There is no project for week 1 so week 2 is exercise 1, week 3 is exercise 2 and so on. There were no assignments for weeks 10 and 11, only quizes.
+The course is assessed through quizes and graded projects. The projects are recorded here (quizes not recorded). There is no project for week 1 so week 2 is exercise 1, week 3 is exercise 2 and so on. There were no assignments for weeks 10 and 11, only quizes. Each assignment directory also contains a PDF which records the instructions for that exercise.
