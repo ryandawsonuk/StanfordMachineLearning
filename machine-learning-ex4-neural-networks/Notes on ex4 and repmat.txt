@@ -9,7 +9,7 @@ performing == on this effectively replicates the value of y num_labels times for
 http://uk.mathworks.com/help/matlab/ref/repmat.html
 http://uk.mathworks.com/help/matlab/ref/eq.html
 
-Theta1(:, 2:end) omits the first column of Theta1. Why are the biases in the first column rather than the first row? (http://uk.mathworks.com/help/matlab/ref/reshape.html - it has hidden_layer_size rows and (input_layer_size + 1) columns so first column has to be bias.)
+Theta1(:, 2:end) omits the first column of Theta1. (Why are the biases in the first column rather than the first row? Because http://uk.mathworks.com/help/matlab/ref/reshape.html - it has hidden_layer_size rows and (input_layer_size + 1) columns so first column has to be bias.)
 
 http://uk.mathworks.com/help/matlab/ref/end.html
 
